@@ -1,0 +1,99 @@
+/* color palette:
+#F29800
+#EF7D40
+#E61E7B */
+
+#perceptronAnimation {
+    visibility: hidden;
+}
+/* --------------------------------- animaiton backgrounds ---------------------- */
+
+/* animation background colors */
+#neuronBG path{
+  fill: #E8E8E8;
+}
+
+#perceptronBG {
+  fill: #E0E0E0;
+}
+
+#activationsBG path{
+  fill: #DCDCDC;
+  /* fill: red; */
+}
+
+.gooFilterLayer {
+  -webkit-filter: url("#goo");
+          filter: url("#goo")
+}
+
+/* ---------------------neuron animation stuff ------------------------------*/
+#neuron {
+  fill: none;
+  stroke: #EF7D40;
+  stroke-width: 11px;
+}
+
+.input {
+  fill: none;
+  stroke: #F29800;
+  stroke-width: 11px;
+}
+
+.output {
+  fill: none;
+  stroke: #ff5900;
+  stroke-width: 11px;
+}
+
+.axon {
+  fill:none;
+  stroke: #ff5900;
+  stroke-width: 13px;
+}
+
+
+.dendrites {
+  stroke: #F29800;
+}
+
+#dendrites1 {
+  stroke-width: 15px;
+}
+
+#dendrites2 {
+  stroke-width: 11px;
+}
+
+.inTransit {
+  stroke: #F29800;
+  stroke-width: 20px;
+}
+
+.signal {
+  fill: #EF7D40;
+}
+
+#cenSig{
+  fill: #e75959;
+}
+
+#cenSig3 {
+  fill: #e75959;
+}
+
+#outSig {
+  fill: #E61E7B;
+}
+
+.num{
+  fill: white;
+}
+
+#num4, #numBig3, #numBig5{
+  visibility: hidden;
+}
+
+#ReLU{
+  fill: white;
+}

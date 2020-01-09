@@ -1,0 +1,43 @@
+#colabButton {
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* --------------------------------- animaiton backgrounds ---------------------- */
+/* .bg-3grey {
+  background-color: #c9cbca;
+  /* background-color: red; */
+/* } */
+/* animation background colors */
+#mnistBG path {
+  fill: #E8E8E8;
+}
+
+#mnistOutputBG path {
+  fill: #E0E0E0;
+}
+
+#propBG path {
+  fill: #DCDCDC;
+}
+
+#repeatBG path {
+  fill: #D8D8D8;
+}
+
+#codingBG path {
+  fill: #D3D3D3;
+  /* fill: transparent; */
+}
+
+/* .gooFilterLayer {
+  filter: url("#goo")
+} */
+
+/* 992px is medium sreen size */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  #colabButton {
+    font-size: 0.8rem;
+    /* font-weight: bold; */
+  }
+}

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="./css/general.css">
+    <!-- change to own stylesheet -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- language annotations -->
+
+
+
+
+    <title>DCI 190: Shenandoah</title>
+
+</head>
+
+<body>
+
+    <!-- navbar place holder -->
+    <div id="nav-placeholder"></div>
+
+    <!-- ######################### -->
+    <!-- Chapter content beginning -->
+    <!-- ######################### -->
+
+    <!-- landing section -->
+    <div id="openingText" class="d-flex align-items-center justify-content-center p-2">
+        <!-- start of row 1 -->
+        <div class="row align-items-center justify-content-center" style="width:100%">
+
+            <!-- col 2 -->
+            <div class="col-10 col-md-4 order-2 order-md-1 text-center mr-md-5">
+                <div class="text-left">
+                    <!-- <p>Chapter ?</p> -->
+                    <h1 class="ml-1">Shenandoah</h1>
+                    <p class="ml-1">DCI 190: DCI Studio (1 credit)<br>
+                    Winter Term ~ 2020</p>
+                    <a class="m-1 btn btn-warning d-inline-block" id="start" href="./schedule.html"
+                        role="button">
+                        Schedule
+                    </a>
+                    <a class="m-1 btn btn-warning d-inline-block" id="start" href="./assignments.html"
+                        role="button">
+                        Assignments
+                    </a>
+                    <button class="m-1 btn btn-outline-secondary d-inline-block" id="modalLink"
+                        data-toggle="modal" data-target="#instructorsModal" type="button">
+                        Instructors
+                    </button>
+                    <p>This lab course introduces students to the technical aspects of publishing an online literary magazine. Using <em>Shenandoah</em> as a model, the course takes a deep dive into a complex Web publication powered by WordPress. Through closely examining how design and content are enabled by code, students will gain experience in technical writing through documenting the technical architecture of <em>Shenandoah</em>. Students also will master project management through GitHub. While prior technical skills are appreciated, students are expected to bring a strong interest in literature and creative writing. The course culminates in the publication of the Spring issue of <em>Shenandoah</em>. </p>
+                    <p class="ml-1 classPolicies" id="">Time &amp; Place</p>
+<p class="bodyNormal">Thursday 11:45am - 1:15pm, Science Addition 102</p>
+
+                    <p class="ml-1 classPolicies" id="">Class Policies</p>
+                    <button class="m-1 btn btn-outline-secondary d-inline-block" id="modalLink"
+                        data-toggle="modal" data-target="#attendanceModal" type="button">
+                        Attendance
+                    </button>
+
+
+                    <button class="m-1 btn btn-outline-secondary d-inline-block" id="modalLink"
+                        data-toggle="modal" data-target="#gradingModal" type="button">
+                        Grading
+                    </button>
+                    <button class="m-1 btn btn-outline-secondary d-inline-block" id="modalLink"
+                        data-toggle="modal" data-target="#accomodationsModal" type="button">
+                        Accomodations for Students with Disabilities
+                    </button>
+
+                    <!-- end of text left   -->
+                </div>
+                <!-- end of col 2 -->
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="instructorsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Instructors</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div id="tipsText" class="text-left">
+                                <p><strong>Jeff Barry</strong><br/>
+Leyburn M38 (main level, back corner near the video editing suite)<br/>
+barryj@wlu.edu<br>
+Offices hours: I'm usually at the library every weekday. Contact me by email to arrange a meeting
+                                </p>
+                                <p><strong>Beth Staples</strong><br/>
+Washington Hall 111<br/>
+bstaples@wlu.edu<br>
+Offices hours: Monday/Wednesday 10:00am - noon
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end of modal -->
+
+            <!-- Modal attendance -->
+            <div class="modal fade" id="attendanceModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Attendance</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div id="tipsText" class="text-left">
+                                <p>Attendance and full participation in each class session is expected.  Since the class meets only once per week, each unexcused absence will lower your final grade by 1/3, e.g., one unexcused absence would make an A- into a B+. The only absences that will be excused are those that are personal illnesses (as indicated from the university health center) or family emergency. Absences for other personal reasons will not be considered excused.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <button id="closeMyModal" type="button" class="btn btn-grey" data-dismiss="modal">Close</button> -->
+
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end of modal -->
+            <!-- Modal required assignments -->
+            <div class="modal fade" id="requiredModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Required Assignments</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div id="tipsText" class="text-left">
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <button id="closeMyModal" type="button" class="btn btn-grey" data-dismiss="modal">Close</button> -->
+
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end of modal -->
+            <!-- Modal accomodations -->
+            <div class="modal fade" id="accomodationsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Accomodations</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div id="tipsText" class="text-left">
+                                <p>Washington and Lee University makes reasonable academic accommodations for qualified students
+with disabilities. All undergraduate accommodations must be approved through the Title IX
+Coordinator and Director of Disability Resources, Elrod Commons 212, (540) 458-4055. Students
+requesting accommodations for this course should present an official accommodation letter within
+the first two weeks of the term and schedule a meeting outside of class time to discuss
+accommodations. It is the student’s responsibility to present this paperwork in a timely fashion and
+to follow up about accommodation arrangements. Accommodations for test-taking must be arranged
+with the professor at least a week before the date of the test or exam, including finals.</p>
+<p>If you have already been approved for accommodations, please meet with me within the first two weeks of the term so we can develop an implementation plan together. It is important to meet as early in the term as possible; this will ensure that your accommodations are implemented early on.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <button id="closeMyModal" type="button" class="btn btn-grey" data-dismiss="modal">Close</button> -->
+
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end of modal -->
+            <!-- Modal grading -->
+            <div class="modal fade" id="gradingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Grading</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div id="tipsText" class="text-left">
+                              <p>Each assignment is worth a specific number of points. It is important to note that you earn points. That means everyone starts with 0 points. At the end of the term, the points you’ve earned will be added and then divided by the total possible points to determine a percentage, which determines your grade according to the following scale:</p>
+<p>A = 100 – 93.5%<br>
+A - = 93.49 – 90%<br>
+B+ = 89.99 – 87%<br>
+B = 86.99 – 83%<br>
+B - = 82.99 – 80%<br>
+C+ = 79.99 – 77%<br>
+C = 76.99 – 73%<br>
+C - = 72.99 – 70%<br>
+D+ = 69.99 – 67.5%<br>
+D = 67.49 – 63%<br>
+D - = 62.99 – 60%<br>
+F = below 60</p>
+<p>You must complete all of the assignments in the course. If you do not, you will receive an F.
+</p>
+                                <p>All work is due at the time and date specified. Any late work will receive a 10% reduction in the grade.</p>
+                                <p>Academic integrity: All work must be your own. You cannot copy ideas or text from another student or from any other source. To avoid questions of plagiarism, you are encouraged to consult resources offered by W&L on understanding and avoiding plagiarism. If you have doubts or questions about your work, please feel free to discuss matters with me. This course will uphold and abide by the W&L Honor Code.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <button id="closeMyModal" type="button" class="btn btn-grey" data-dismiss="modal">Close</button> -->
+
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end of modal -->
+
+            <!-- col 3 -->
+            <div class="col-11 col-md-4 order-1 order-md-2">
+              <img id="shencoverimage" class="img-fluid" src="img/shen-cover.png">
+            </div>
+
+            <!-- col-4 -->
+            <!-- <div class="d-none d-md-block col-1 arrowIcon" style="position: absolute; right: 5px;">
+        <a href=".html"><i class="fas fa-caret-right fa-2x"></i></a>
+      </div> -->
+        </div>
+        <!-- end of row 1 -->
+
+    </div>
+    <!-- end of landing section -->
+
+
+    <div class="overlay"></div>
+
+
+    <!-- svg goo filter DO NOT DELETE-->
+    <svg version="1.1" xmlns="https://www.w3.org/2000/svg" style="height: 0; width: 0; position: absolute; top: -9999px; left: -99990px">
+        <defs>
+            <filter color-interpolation-filters="sRGB" id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="13" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9"
+                    result="cm" />
+                <feBlend />
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- Boostrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- GSAP -->
+    <script type="text/javascript" src="./js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="./js/DrawSVGPlugin.min.js"></script>
+    <script type="text/javascript" src="./js/MorphSVGPlugin.min.js"></script>
+
+    <!-- Lottie -->
+    <script type="text/javascript" src="./js/lottie.js"></script>
+
+    <!-- ScrollMagic JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5//plugins/debug.addIndicators.js"></script>
+
+    <script type="text/javascript" src="./js/main.js"></script>
+
+    <!-- change to own js files -->
+    <script type="text/javascript" src="./js/index.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('[data-toggle="tooltip"]').tooltip({
+                placement: "top"
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+  <!-- My stylesheet -->
+  <link rel="stylesheet" href="./css/general.css">
+  <!-- change to own stylesheet -->
+  <link rel="stylesheet" href="./css/.css">
+
+
+
+  <title>Schedule: DCI 110</title>
+
+</head>
+
+<body>
+
+  <!-- scrollbar -->
+  <div class="scrollBar" id="myBar"></div>
+
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <button type="button" id="sidebarCollapse" class="btn">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Sidebar  -->
+  <nav id="sidebar">
+    <div id="dismiss">
+      <i class="fas fa-times fa-sm"></i>
+    </div>
+
+    <div class="sidebar-header">
+      <h4>DCI 190: Shenandoah</h4>
+    </div>
+
+    <ul class="list-unstyled components">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="schedule.html">Schedule</a>
+      </li>
+      <li>
+        <a href="assignments.html">Assignments</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ######################### -->
+  <!-- Chapter content beginning -->
+  <!-- ######################### -->
+
+  <!-- landing section -->
+  <div id="openingText" class="d-flex align-items-center justify-content-center">
+    <!-- start of row 1 -->
+    <div class="row align-items-center justify-content-center">
+      <!-- col 1 left arrow navigation-->
+      <div class="d-none d-md-block col-1 arrowIcon" style="position: absolute; left: 5px;">
+      </div>
+
+      <!-- col 2 -->
+      <div class="col-10 col-md-4 order-2 order-md-1">
+        <div class="text-left">
+          <p>Course Schedule</p>
+          <h2>Every Thursday,<br> 11:45am - 1:15pm</h2>
+          <p>Each week we will explore a topic about online literary magazine production. You will have <a href="assignments.html">tasks</a> for each class. </p>
+          <p>Scroll down to view the week-by-week schedule.</p>
+        </div>
+      </div>
+
+      <!-- col 3 -->
+      <div class="col-md-5 order-1 order-md-2">
+        <div id="openingLottie" class="openingAnimation mx-auto"></div>
+        <img class="img-fluid" src="img/undraw/undraw_completed_steps_schedule.svg">
+      </div>
+
+      <!-- col-4 Right arrow navigation-->
+      <div class="d-none d-md-block col-1 arrowIcon" style="position: absolute; right: 5px;">
+      </div>
+    </div>
+    <!-- end of row 1 -->
+
+    <!-- start of row 2 -->
+    <div class="" style="position: absolute; bottom: 20px;">
+      <div>
+        <p class="iconHeight" id="scrollIcon">Scroll</p>
+        <i class="iconHeight fas fa-angle-down fa-lg"></i>
+      </div>
+      <!-- end of row 2 -->
+    </div>
+  </div>
+  <!-- end of landing section -->
+
+
+  <!-- ######## Animation & text beginning ######## -->
+  <!-- animation divs -->
+  <div id="seedLottie" class="animation animLeft upperLayer"></div>
+  <div id="robotLottie" class="animation animRight topLayer"></div>
+  <div id="agiLottie" class="animation animLeft threeLayer"></div>
+  <div id="dataLottie" class="animation animRight fourLayer"></div>
+  <div id="wordsLottie" class="animation animLeft fiveLayer"></div>
+
+  <!-- text begins -->
+
+  <!-- seed animation text section -->
+  <div id="text1" class="bg-1green scene">
+    <div class="text right">
+      <h3>1st class ~ January 9</h3>
+      <p>Introductions. Overview of the course and expectations. Establishing timeline for production. Organizing teams and discussing deliverables.
+      </p>
+      <p>We'll also discuss technical writing. We'll talk about how we write about what we do so that we can remember, understand, explain, and track our work.</p>
+      <p>For next week:
+        <ul>
+        <li> review the Shenandoah site
+        <li> signup for a free GitHub account
+        <li> post 2 discussion questions about <em>Shenandoah</em>
+        </ul>
+        </p>
+    </div>
+  </div>
+
+  <div id="text2" class="bg-2green scene">
+    <div class="text left">
+      <h3>Week 1 ~ January 16</h3>
+      <p>Topic: Project management and communication, essential elements in getting the job done.</p>
+      <p>Class discussion about your submitted questions about Shenandoah and GitHub.</p>
+      <p>Last 30 minutes of class: meet with your team to plan your work for the term.</p>
+      <p>Professor Barry will meet with the project management team to help prepare them for their presentation the following week.</p>
+      <p>For next week:
+        <ul>
+        <li> write a reflection on what tools, particulary software (if any), that help you get your work done and stay organized
+        <li> post 2 discussion questions about project management that you would like the project management team to address
+        </ul>
+        </p>
+    </div>
+  </div>
+
+  <div id="text3" class="bg-3green scene">
+    <div class="text right">
+      <h3>Week 2 ~ January 23</h3>
+      <p>Project Management team presentation and discussion.</p>
+      <p>Publishing with WordPress. WordPress as a publishing tool: why, pros, cons, and what is multisite WP.  </p>
+      <p>For next week:
+        <ul>
+        <li> write a reflection on your experiences with Wordpress (if any); identify at least two websites that you believe are using WP as their content management system
+        <li> post 2 questions about what you would like to learn more about WordPress; at least 1 question should be specific to the use of WordPress in publishing Shenandoah
+        </ul>
+        </p>
+    </div>
+  </div>
+
+
+  <!-- robot animation text section -->
+  <div id="text4" class="scene bg-4green upperLayer">
+    <div class="text left">
+      <h3>Week 3 ~ January 30</h3>
+      <p>Topic: the role of documentation</p>
+      <p>Overview of Shenandoah's technical ecosystem. Exploring the relationship in WP among themes, plugins, sites, content, and code.
+      </p>
+      <p>For next week:
+        <ul>
+        <li> write a reflection distinguishing the roles of themes and plugins in WP. Address how plugins add value to a WP site.
+        <li> identify 2 email newsletters that you like
+        </ul>
+        </p>
+    </div>
+  </div>
+
+  <div id="text5" class="scene bg-5green upperLayer">
+    <div class="text right">
+      <h3>Week 4 ~ February 6</h3>
+      <p>Topic: the purposes served by email newsletters</p>
+      <p>The structure of a Shenandoah issue.
+      </p>
+      <p>For next week:
+        <ul>
+        <li> reflection&mdash; from your perspective what are the disadvantages of email newsletters and what are alternatives that you might like to see?
+        <li> post 2 questions for the documentation team
+        </ul>
+        </p>
+    </div>
+  </div>
+
+
+  <!-- agi animation text section -->
+  <div id="text6" class="scene bg-6green topLayer">
+    <div class="text left">
+      <h3>Week 5 ~ February 13</h3>
+      <p>Documentation team presentation and discussion</p>
+      <p>Preparing a new issue of Shenandoah </p>
+      <p>Discussion of your reflections on newsletters</p>
+      <p>For next week:
+        <ul>
+        <li> reflection&mdash; what types of multimedia content do you find useful?
+        <li> post 2 examples of multimedia content in online magazines and state briefly what you like about those examples, which could be the content or the way that it's presented
+        </ul>
+        </p>
+    </div>
+  </div>
+
+  <div id="text7" class="scene bg-7green topLayer">
+    <div class="text right">
+      <h3>Week 6 ~ February 20</h3>
+      <p>Topic: discuss the role of multimedia in what was traditionally a print publication</p>
+      <p>Washington Break is the following week. No class on February 27. No reflections or questions for next class on March 5.</p>
+    </div>
+  </div>
+
+
+  <!-- data animation text section-->
+  <div id="text8" class="scene threeLayer bg-8green">
+    <div class="text left">
+      <h3>
+        Week 7 ~ March 5
+      </h3>
+      <hr>
+      <p>
+        Topic: identifying features for a WP plugin that optimizes the workflow for publishing Shenandoah
+      </p>
+      <p>For next week:
+        <ul>
+        <li> post 2 questions for the multimedia team discussion
+        </ul>
+        </p>
+    </div>
+  </div>
+
+  <div id="text9" class="scene threeLayer bg-9green">
+    <div class="text right">
+      <h3>
+        Week 8 ~ March 12
+      </h3>
+      <hr>
+      <p>Multimedia team presentation and discussion</p>
+
+      <p>For next week:
+        <ul>
+        <li> multimedia content comes in varying lengths, from clips of less than 1 minute to unedited podcasts over 2 hours in length. What are the pros/cons of different length formats, which do you prefer? Does your preference change depending upon the topic or medium?
+        <li> post 2 questions for the newsletter team discussion
+        </ul>
+        </p>
+    </div>
+  </div>
+
+  <div id="text10" class="scene threeLayer bg-10green">
+    <div class="text left">
+      <h3>
+        Week 9 ~ March 19
+      </h3>
+      <hr>
+      <p>Newsletter team presentation and discussion</p>
+
+      <p>For next week:
+        <ul>
+        <li> Next week's class is an open discussion: post 2 questions or topics that you would like us to further explain.
+        </ul>
+        </p>
+    </div>
+  </div>
+
+  <div id="text11" class="scene threeLayer bg-11green">
+    <div class="text right">
+      <h3>
+        Week 10 ~ March 26
+      </h3>
+      <hr>
+      <p>Topic: open discussion responding to your questions</p>
+        <p>For next week:
+          <ul>
+          <li> By this point in the term, you should be quite familiar with Shenandoah as an online publication. What enhancements would you suggest?
+          </ul>
+          </p>
+
+    </div>
+  </div>
+
+
+  <!-- words animation text section -->
+  <div id="text12" class="scene fourLayer bg-12green">
+    <div class="text left">
+      <h3>
+        Week 11 ~ April 2
+      </h3>
+      <hr>
+      <p>
+        Topic: Last steps in launching an issue.
+      </p>
+    </div>
+  </div>
+
+  <div id="text13" class="scene fourLayer bg-13green">
+    <div class="text right">
+      <h3>
+      Week  12 ~ April 9
+      </h3>
+      <hr>
+      <p>
+        Last class.<br>
+        Course evaluation <br>
+        Identifying future enhancements to <em>Shenandoah</em><br>
+        No final exam.
+      </p>
+      <p>Final reflections due by email to Professors Barry and Staples no later than ...</p>
+    </div>
+  </div>
+
+
+
+
+  <!-- ending section
+  <div id="endingText" class="lastScene row align-items-center justify-content-around fiveLayer bg-14green">
+    <div class="col-12 col-md-10">
+      <div class="row justify-content-around">
+
+        <div class="col-10 col-md-5 fourLayer align-self-start">
+          <div class="text-left align-self-start">
+            <h3><strong>Summary</strong></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+              animi, enim possimus aliquam nostrum sequi distinctio esse! Reiciendis, recusandae, vero.
+            </p>
+
+            <h3><strong>Further Reading</strong></h3>
+            <p>link <br> link <br> link</p>
+          </div>
+        </div>
+
+        <div class="col-10 col-md-5 fourLayer align-self-start">
+          <div class="text-left">
+            <h3><strong>Glossary</strong></h3>
+            <p><strong>Lorem.</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, laudantium.<br><br>
+              <strong>Lorem.</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br><br>
+              <strong>Lorem.</strong>: Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
+  <!-- end of text area -->
+
+  <div class="overlay"></div>
+
+
+  <!-- svg goo filter DO NOT DELETE-->
+  <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="height: 0; width: 0; position: absolute; top: -9999px; left: -99990px">
+    <defs>
+      <filter color-interpolation-filters="sRGB" id="goo2">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
+        <feBlend />
+      </filter>
+    </defs>
+  </svg> -->
+
+  <!-- Boostrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+  <!-- jQuery Custom Scroller CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+  <!-- GSAP -->
+  <script type="text/javascript" src="./js/TweenMax.min.js"></script>
+  <script type="text/javascript" src="./js/DrawSVGPlugin.min.js"></script>
+  <script type="text/javascript" src="./js/MorphSVGPlugin.min.js"></script>
+
+  <!-- Lottie -->
+  <script type="text/javascript" src="./js/lottie.js"></script>
+
+  <!-- ScrollMagic JavaScript -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5//plugins/debug.addIndicators.js"></script>
+
+  <!-- change to own js files -->
+  <script type="text/javascript" src="./js/.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#dismiss, .overlay').on('click', function() {
+        $('#sidebar').removeClass('active');
+        $('.overlay').removeClass('active');
+      });
+
+      $('#sidebarCollapse').on('click', function() {
+        $('#sidebar').addClass('active');
+        $('.overlay').addClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      $('[data-toggle="tooltip"]').tooltip({
+        placement: "top"
+      });
+    });
+  </script>
+
+</body>
+
+</html>

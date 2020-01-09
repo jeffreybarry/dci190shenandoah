@@ -1,0 +1,63 @@
+#start, #start2 {
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#closeMyModal {
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#openingText h1 {
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+#modalLink {
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#modalTooltip {
+    cursor: pointer;
+}
+
+#tipsLink {
+    font-size: 90%;
+    text-decoration: underline;
+}
+
+#tipsText p{
+    font-size: 1.1rem;
+}
+
+#dropdownMenuButton {
+    border-radius: 20px;
+    border:none;
+}
+
+/* --------------------------------- animation backgrounds ---------------------- */
+#seedBG path {
+  fill: #E8E8E8;
+}
+
+.gooFilterLayer {
+  -webkit-filter: url("#goo");
+          filter: url("#goo")
+}
+
+/* 992px is medium sreen size */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  #openingText h1 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+
+  #tipsText p{
+      font-size: 0.9rem;
+  }
+}

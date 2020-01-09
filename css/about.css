@@ -1,0 +1,118 @@
+#start {
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#openingText h1 {
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+#team, #award, #privacy, #reference, #contribution, #acknowledge {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#team h1, #award h1, #privacy h1, #reference h1, #contribution h1, #acknowledge h1 {
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+#privacy p, #reference p {
+    font-size: 18px;
+}
+
+#avatarCredit {
+    font-size: 15px !important;
+    margin-left: 40px;
+    color: grey;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: #000;
+}
+
+.mediaLogo {
+    height: auto;
+    width: auto;
+    max-width: 170px;
+    max-height: 170px;
+    -webkit-filter: grayscale(100%) contrast(1.4);
+            filter: grayscale(100%) contrast(1.4);
+}
+
+.mediaLogo:hover {
+    -webkit-filter: grayscale(0%) contrast(1);
+            filter: grayscale(0%) contrast(1);
+}
+
+/* ----------------------------------card stuff */
+
+.card {
+  border-radius: 20px;
+}
+
+.card h2 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.card-footer {
+  background-color: transparent;
+}
+
+.card-footer a {
+  color: inherit;
+}
+
+.card-footer a:hover {
+  color: black;
+}
+
+.card-body a {
+  color: inherit;
+}
+
+.card-body a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover{ /* for images */
+    text-decoration: none;
+}
+
+/* --------------------------------- animaiton backgrounds ---------------------- */
+#seedBG path {
+  fill: #E8E8E8;
+}
+
+.gooFilterLayer {
+  -webkit-filter: url("#goo");
+          filter: url("#goo")
+}
+
+/* 992px is medium sreen size */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  #openingText h1 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  #team h1, #award h1, #privacy h1, #reference h1, #contribution h1, #acknowledge h1 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  #privacy p, #reference p {
+    font-size: 0.9rem;
+  }
+
+  #avatarCredit {
+      font-size: 12px !important;
+  }
+}
